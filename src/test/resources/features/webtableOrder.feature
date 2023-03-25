@@ -1,6 +1,6 @@
 Feature: Web table user order feature
 
-  @wip
+ @wip
   Scenario: User should be able to place order and order seen in web table
   Given user is already logged in and order page
     When user selects product type "Familybea"
@@ -14,5 +14,5 @@ Feature: Web table user order feature
     And user enters select credit card number "1111222333444"
     And user enters expiry date "12/23"
     And user enters process order button
-    Then user should see " Sherlock Holmes" in first row of the web table
+    Then user should see "Sherlock Holmes" in first row of the web table
 
